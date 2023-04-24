@@ -1,0 +1,20 @@
+
+.box{ width:150px; height:50px; 
+    border:1px solid; margin:5px;
+    background: gold;
+    text-align: center;
+}
+.display{display:none;}
+.visible{visibility: hidden;}
+.opacity{opacity: 0.5;}
+.text{text-indent:-9999px;}
+.pos{position:absolute; left:-9999px;}
+.width{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+    background-image: url(/imgs/cat1.jpeg);
+}
+.font{font-size: 0;}
