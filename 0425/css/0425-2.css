@@ -1,0 +1,49 @@
+.borderimg{
+    border:10px solid transparent;
+    padding: 10px;
+    border-image: url(/0425/imgs/테두리2.png) 30 stretch;
+}
+.borderimg:hover{
+    border-image: url(/0425/imgs/테두리2.png) 30 repeat;
+}
+.borderimg:active{
+    border-image: url(/0425/imgs/테두리2.png) 30 space;
+}
+.borderimg2{
+    border:10px solid transparent;
+    padding: 10px;
+    border-image: url(/0425/imgs/테두리1.png) 10 round;
+    margin: 30px;
+}
+.borderimg3{
+    border:10px solid transparent;
+    padding: 10px;
+    border-image: url(/0425/imgs/테두리4.png) 30 round;
+    margin: 30px;
+}
+.borderimg4{
+    border:10px solid transparent;
+    padding: 20px;
+    border-image: url(/0425/imgs/cat1.jpeg) 20 repeat;
+    margin: 30px;
+}
+
+ul{
+    margin: 30px;
+}
+ul>li{ 
+    list-style-type: decimal;
+    list-style-position: outside;
+    list-style-position: inside;
+    list-style-image: url(/imgs/cat1.jpeg);
+    /* list-style: none;
+    list-style: upper-alpha inside; */
+}
+ul>li:hover{
+    list-style-image: url(/0425/imgs/테두리1.png);
+}
+
+ul>li{
+    background-image: url(/imgs/cat1.jpeg) ;
+    background: no-repeat;
+}
